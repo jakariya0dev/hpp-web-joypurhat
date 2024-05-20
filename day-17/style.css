@@ -1,0 +1,41 @@
+.box{
+
+    height: 300px;
+    width: 100%;
+    background-color: antiquewhite;
+    color: white;
+    /* background-image: url("./../fahim.jpg"); */
+    background-image: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    background: linear-gradient(#814747a0, #7836a481), url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.box1{
+    
+    border: 10px solid gray;
+    outline: 10px dashed blue;
+    margin: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: #892626;
+    color: wheat;
+    padding: 50px;
+    outline-offset: 15px;
+    text-align-last: right;
+    direction: rtl;
+    /* text-decoration-line: overline underline;
+    text-decoration-color:#aa8a8a;
+    text-decoration-style: double;
+    text-decoration-thickness: 1px; */
+    text-decoration: overline line-through gray 1px;
+    
+}
+
+.box2{
+    text-indent: 50px;
+    white-space: nowrap;
+}

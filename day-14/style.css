@@ -1,0 +1,15 @@
+p, body{
+    background-color: burlywood;
+   }
+
+   .p-first{
+    color: green;
+   }
+
+   .p-second{
+    color: blue;
+   }
+
+   #heading{
+    background-color: white;
+   }

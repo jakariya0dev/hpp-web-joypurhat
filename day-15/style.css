@@ -1,0 +1,65 @@
+div{
+/*     
+    font-size: 20px;
+    color: blue;
+    
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 16px;
+    word-spacing: 10px;
+    letter-spacing: 10px; 
+*/
+    
+    text-align: justify;
+    background-color: antiquewhite;
+
+    width: 500px;
+    height: 300px;
+
+    padding: 16px 50px 10px 100px;
+
+    /* padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 20px; */
+
+    margin: 50px 100px 50px 100px;
+
+    /* margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 200px;
+    margin-bottom: 300px; */
+   
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet; */
+
+    border: 5px solid tomato;
+    border-left: 10px solid magenta;
+    border-bottom: 15px solid burlywood;
+
+    border-radius: 20px 10px 50px 100px;
+
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 150px; */
+
+}
+
+
+php:
+echo "Hello world"
+
+Java:
+System.out.printlin("Hello word")
+
+C#:
+printf("Hello World")
+
+JavaScript
+document.write("Hello World")
+
+Python:
+print "Hello World"
