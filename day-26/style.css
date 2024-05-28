@@ -1,0 +1,83 @@
+.user-form{
+    padding: 16px;
+    margin: auto;
+    width: 50%;
+    background-color: aqua;
+}
+
+input[type="radio"]:checked{
+    height: 50px;
+    width: 50px;
+}
+
+input[type="text"], input[type="number"]{
+    display: block;
+    width: 50%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus{
+    background-color: bisque;
+    outline: 2px solid gainsboro;
+}
+
+input[type="number"]:in-range{
+    color: blue;
+
+}
+
+input[type="number"]:out-of-range{
+    color: white;
+    background-color: red;
+
+}
+
+input:read-only{
+    background-color: aquamarine;
+}
+
+input:disabled{
+    outline: 2px solid red;
+}
+
+p:first-child{
+    color: blue;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(2n+2){
+    color: gold;
+}
+
+input[type="submit"]{
+    margin-top: 16px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+
+    background-color: rgb(1, 1, 139);
+
+}
+
+input:required{
+    border: none;
+    outline: 1px solid blue;
+}

@@ -1,0 +1,77 @@
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 150px;
+}
+
+a:hover{
+    background-color: blueviolet;
+    width: 200px;
+    color: antiquewhite;
+}
+
+a:active{
+    color: yellowgreen;
+}
+
+a:visited{
+    color: darkorange;
+}
+
+ul{
+    list-style-type: circle;
+    
+}
+
+li{
+    list-style: upper-alpha outside;
+    background-color: gainsboro;
+    margin-bottom: 2px;
+    /* list-style-position: inside; */
+    /* list-style-image: url('https://picsum.photos/200/300'); */
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+td{
+    border-bottom: 1px solid black;
+    
+}
+
+tr:hover{
+    background-color: goldenrod;
+}
+/* table{
+    caption-side: bottom;
+    width: 50%;
+    height: 500px;
+}
+
+table, th, td{
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 10px;
+}
+
+tr{
+    background-color: gainsboro;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(1){
+    background-color: green;
+    color: #fff;
+} */
