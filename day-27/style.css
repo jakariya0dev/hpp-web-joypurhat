@@ -1,0 +1,67 @@
+body{
+    font-size: 25px;
+}
+
+p{
+    color: green ;
+}
+
+#content{
+    color: yellow;
+}
+
+.para{
+    color: blue !important;
+}
+
+
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+::selection{
+    background-color: yellow;
+    color: black;
+}
+
+::marker{
+    color: yellow;
+    font-size: 55px;
+}
+
+h1{
+    position: relative;
+    
+}
+
+h1::after{
+    content: "";
+    height: 50px;
+    width: 0;
+    transition: all 1s;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    opacity: 0.5;
+}
+
+h1:hover::after{
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.main{
+    font-size: 2.5rem;
+    width: 50vmin;
+    background-color: gainsboro;
+    margin: auto;
+}
+
+/* h1::before{
+    content: "Another Text";
+} */
