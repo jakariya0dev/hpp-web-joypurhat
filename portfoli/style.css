@@ -188,3 +188,23 @@ section#service{
     margin-bottom: 10px;
 
 }
+
+@media screen and (max-width: 768px){
+    
+    
+    .service-items > .item{
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    .service-items{
+        flex-direction: column;
+    }
+    
+    .service-items > .item{
+        width: 100%;
+    }
+}
+

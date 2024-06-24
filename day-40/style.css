@@ -1,0 +1,47 @@
+:root{
+    --theme-color: green;
+    --text-color: black;
+    
+
+}
+
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+@media screen and (max-width: 500px){
+    .box {
+        background-color: blue;
+        border-radius: 50px;
+        border: 5px solid gray;
+    }
+}
+
+nav {
+    width: 100%;
+    background-color:  var(--theme-color);
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+h1{
+    color: var(--theme-color);
+}
+
+footer{
+    background-color: var(--theme-color);
+    color: white;
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
