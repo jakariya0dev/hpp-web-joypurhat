@@ -1,0 +1,44 @@
+.main{
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.box{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.box1{
+
+    background-color: blue;
+    order: 1;
+}
+.box2{
+
+    background-color: brown;
+}
+.box3{
+    background-color: chocolate;
+    flex-grow: 3;
+    align-self: self-start;
+}
+.box4{
+    background-color: blueviolet;
+    flex-grow: 2;
+    order: -1;
+}
+
+.box5{
+    background-color: chartreuse;
+}
+

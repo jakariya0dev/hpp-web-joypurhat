@@ -1,0 +1,27 @@
+.container{
+    margin: auto;
+    margin-top: 50px;
+    height: 180px;
+    width: 180px;
+    background-color: aliceblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+button{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 0;
+}
+
+button:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}

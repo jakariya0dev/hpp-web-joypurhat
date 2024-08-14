@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    
+}
+
+nav .logo{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding-left: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+nav .menu{
+    width: 75%;
+    background-color: gray;
+   
+}
+
+.menu > ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding-left: 10vw;
+}
+
+.menu ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+/* Hero Section Start */
+
+#hero{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    position: relative;
+}
+
+#hero .left{
+    width: 25vw;
+    height: 100%;
+    background-color: black;
+}
+
+#hero .right{
+    width: 75vw;
+    height: 100%;
+    
+}
+
+#hero .right > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero .overlay{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.664));
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 10vw;
+}
+
+#hero .overlay h3{
+    font-size: 2rem;
+}
+
+#hero .overlay h1{
+    font-size: 3.5rem;
+}
+
+#hero .overlay button{
+    font-size: 1rem;
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+}
+
+/* about section Start */
+
+#about{
+    width: 100%;
+    height: 100vh;
+    padding: 10vw 5vw;
+    display: flex;
+    gap: 24px;
+}
+
+#about .left{
+    width: 50%;
+    height: 100%;
+}
+
+#about .left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -20px -20px 0 0 black;
+}
+
+#about .right{
+    width: 50%;
+    height: 100%;
+}
+
+#about .right .header{
+    width: 50%;
+    text-align: right;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+}
+
+
+#about .right .header::after{
+   content: "";
+   display: block;
+   width: 50%;
+   height: 10px;
+   background-color: yellow;
+   position: absolute;
+   bottom: 0;
+   z-index: -1;
+}
+
+#about .right .header h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+#about .right .header h1 span{
+    font-size: 1rem;
+    text-transform: lowercase;
+
+}
+
+#about .right .header .right {
+    flex-grow: 1;
+
+}
+
+#about .right .header .right img{
+    height: 50px;
+    width: 100%;
+
+}

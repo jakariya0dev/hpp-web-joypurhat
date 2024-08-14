@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Quicksand", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Poppins", sans-serif;
+}
+
+#hero{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(128, 128, 128, 0.858)), url(./assets/images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo{
+    font-family: "Pacifico", cursive;
+}
+
+
+nav > ul{
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+    
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    
+    position: relative;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+nav > ul > li > a::after {
+    margin-bottom: -2px;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 500ms;
+}
+
+nav > ul > li > a:hover::after {
+
+    width: 100%;
+
+}
+
+
+
+#hero > .content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#hero > .content > img {
+    border-radius: 50%;
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid gray;
+    margin: 50px 0 20px;
+}
+
+
+
+#hero > .content > i {
+    font-size: 32px;
+    margin-top: 100px;
+}
+
+/* Day 35 */
+
+section#about{
+    width: 100%;
+    min-height: 300px;
+}
+
+#about > div{
+    width: 80%;
+    margin: 50px auto;
+}
+h1.title{
+    text-transform: uppercase;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+h1.title::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 5%;
+    background-color: gray;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-content > .left{
+    width: 50%;
+    overflow: hidden;
+}
+
+.about-content > .left > img{
+    width: 100%;
+    height: 300px;
+}
+
+.about-content > .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section#service{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(223, 223, 239);
+}
+
+#service > div{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.service-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.service-items > .item{
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 0 5px 2px rgb(211, 140, 140);
+    text-align: center;
+    padding: 30px;
+}
+
+.service-items > .item > i {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.service-items > .item > h3 {
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 768px){
+    
+    
+    .service-items > .item{
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    
+    .service-items{
+        flex-direction: column;
+    }
+    
+    .service-items > .item{
+        width: 100%;
+    }
+}
+

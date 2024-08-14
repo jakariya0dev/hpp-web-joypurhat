@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    background-image: url("./assets/images/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+#hero > .content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#hero > .content > .left{
+    width: 50%;
+    
+}
+
+#hero > .content > .right{
+    width: 50%;
+    
+}
+
