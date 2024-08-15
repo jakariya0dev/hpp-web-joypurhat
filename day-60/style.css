@@ -2,7 +2,7 @@
     margin: auto;
     margin-top: 50px;
     height: 180px;
-    width: 180px;
+    width: 220px;
     background-color: aliceblue;
     padding: 2rem;
     display: flex;
@@ -18,7 +18,8 @@ button{
     background-color: darkblue;
     color: white;
     border: none;
-    padding: 10px 0;
+    padding: 10px 10px;
+    margin: 2px;
 }
 
 button:hover{
