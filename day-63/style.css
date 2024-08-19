@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(17, 28, 29);
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 14px 15px;
+    color: white;
+    background-color: green;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 8px;
+    color: white;
+    margin: 8px 5px;
+}
+
+.menu a:hover{
+    background-color: rgb(10, 16, 16);
+}
+
+button{
+    margin-left: auto;
+    margin-right: 16px;
+    height: 20px;
+    width: 50px;
+    display: none;
+}
+
+@media  (max-width: 720px) {
+    body{
+        background-color: yellowgreen;
+    }
+
+    button{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 45px;
+        width: 0;
+        height: 100vh;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: all 1s;
+    }
+
+}
