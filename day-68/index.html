@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../assets/bootstrap.min.css">
+    <style>
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: tan;
+        }
+
+        #flexBox{
+            height: 220px;
+            margin: 15px;
+            flex-wrap: wrap;
+            align-items: end;
+            justify-content: space-between;
+            /* align-items: center; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-primary bg-gradient bg-opacity-50 d-inline" style="height: 25vmin;"></div>
+    <div class="bg-secondary bg-gradient text-black-50" style="height: 25vmin;">
+        Lorem ipsum dolor sit amet.
+    </div>
+
+    <div class="box d-sm-none d-md-block">
+        
+    </div>
+
+    <div class="d-flex bg-info align-items-center" id="flexBox">
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-secondary"> box two</div>
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-secondary"> box two</div>
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-secondary"> box two</div>
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-secondary"> box two</div>
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-secondary"> box two</div>
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-primary"> box one</div>
+        <div class="box text-bg-secondary"> box two</div>
+        <div class="box text-bg-primary"> box one</div>
+    </div>
+
+    <script src="./../assets/bootstrap.bundle.min.js"></script>
+</body>
+</html>

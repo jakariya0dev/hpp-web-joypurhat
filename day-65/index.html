@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <div id="carouselExampleIndicators" class="carousel slide mb-5">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imgs/city.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imgs/elephant.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imgs/pexels-cottonbro-4065876.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imgs/tree.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./imgs/pexels-olly-3777943.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-6">
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium voluptatum, obcaecati dolores veritatis sapiente accusantium nemo rem eos unde non doloremque debitis quis sint dolorum possimus a numquam delectus!
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis explicabo iure reprehenderit quod laborum doloremque corporis temporibus, velit ducimus nobis quasi, itaque ipsum magni illum, facere fuga omnis neque quaerat!
+                    </p>
+                </div>
+            </div>
+
+            <section class="bg-info p-2">
+                <div class="row">
+                    <div class="col-md-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                    <div class="col-md-7">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.426631629852!2d89.0549253679061!3d25.09107535605729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc927ff37c597b%3A0x2b04d5fcbcb9748!2z4Kac4Kef4Kaq4KeB4Kaw4Ka54Ka-4KafIOCmleCmvuCmsOCmv-Cml-CmsOCmvyDgpqrgp43gprDgprbgpr_gppXgp43gprfgpqMg4KaV4KeH4Kao4KeN4Kam4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1724234393905!5m2!1sbn!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+
+
+    <!-- <section id="gallery">
+        <div class="gallery-items">
+
+            <div class="item">
+                <img src="./../images/city.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="./../images/elephant.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="./../images/fahim.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="./../images/tree.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="./../images/elephant.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="./../images/fahim.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="./../images/city.jpg" alt="">
+            </div>
+
+            <div class="item">
+                <img src="./../images/tree.jpg" alt="">
+            </div>
+
+        </div>
+    </section> -->
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
