@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Spectral", serif;
+}
+
+/* Navbar Start */
+
+.navbar-brand:hover, .nav-link:hover{
+    color: darkblue !important;
+}
+
+/* Navbar End */
+
+/* Hero Start */
+.author{
+    letter-spacing: 4px;
+}
+
+.title{
+    font-weight: 900;
+}
+
+.hero-btn{
+    padding: 8px 42px;
+    font-weight: 500;
+}
+
+.hero-img{
+    height: 85vmin;
+}
+/* Hero End */
+
+/* About Start */
+section#about{
+    padding: 5rem 0;
+}
+
+.about-img{
+    height: 100vmin;
+    width: 75vmin;
+    margin-left: 8vmin;
+}
+
+.about-card{
+    z-index: 99;
+
+    background-color: white;
+    margin-left: -15vmin;
+    margin-top: 5vmin;
+    padding: 15vmin 12vmin;
+    box-shadow: 0 0 30px 1px rgb(125, 124, 124);
+}
+/* About End */
+
+/* Counter Start */
+
+.counter-cover{
+    background-image: url('./assets/pexels-photo-452738.jpeg');
+    background-position: center 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-cover > div{
+    background-color: rgba(17, 6, 55, 0.571);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.counter-card{
+    margin-top: -10vmin;
+    padding: 32px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    
+}
+
+.counter-card > h2{
+    font-size: 5rem;
+    color: green;
+    margin: 0;
+}
+
+.counter-card > p{
+    margin: 0;
+}
+/* Counter End */
+
+/* Pricing Start */
+section#pricing{
+    margin: 15vmin;
+    text-align: center;
+}
+
+#pricing > p {
+    margin-bottom: 8vmin;
+}
+
+.pricing-card .title{
+    background-color: ;
+}
+
+.card-bottom > h2{
+    font-size: 4rem;
+    margin: 5vmin 0;
+}
+
+.card-bottom > button{
+    font-size: 0.75rem;
+    padding: 10px 32px;
+    margin-bottom: 5vmin;
+}
+/* Pricing End */
+
+/* footer start*/
+footer{
+    background-color: rgb(7, 11, 29);
+    padding: 10vmin 0;
+}
+
+.foot-title{
+    color: white;
+    font-size: 20px;
+}
+
+.foot-description{
+    color: rgb(162, 162, 162);
+    font-size: 15px;
+}
+
+.foot-social-ic > i{
+    margin-right: 8px;
+    transition: all 0.3s;
+}
+
+.foot-social-ic > i:hover{
+    color: rgb(135, 134, 134);
+}
+/* footer end*/
